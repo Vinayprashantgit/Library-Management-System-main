@@ -22,7 +22,7 @@ const librarianRoute = require("./routes/librarian.route");
 const bookRoute = require("./routes/book.route");
 const issueBookRoute = require("./routes/issuebook.route");
 
-app.use(cors({ credentials: true, origin: "http://localhost:4200" }));
+app.use(cors({ credentials: true, origin: "https://hilarious-sfogliatella-07566c.netlify.app" }));
 app.use("/api/usersauth/", userauthRoute);
 app.use("/api/adminsauth/", adminauthRoute);
 app.use("/api/users/", userRoute);
